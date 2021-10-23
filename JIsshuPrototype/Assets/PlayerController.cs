@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody>();
+        rb = this.transform.GetComponent<Rigidbody>();
         velocity = Vector3.zero;
     }
 
@@ -35,19 +35,17 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isRun", false);
             speed = 1f;
         }
-
-        transform.Translate(unityChanVec);
-        transform.Rotate(0, toward*0.6f, 0);
         
         //Jump
-        if(Input.GetKey(KeyCode.Space)){
+        if(Input.GetKeyDown(KeyCode.Space)){
             animator.SetBool("Jump", true);
-            jump = 4f;
         }
         if(Input.GetKeyUp(KeyCode.Space)){
             animator.SetBool("Jump", false);
-            jump = 0f;
         }
         rb.AddForce(transform.up*jump);
+
+        transform.Translate(unityChanVec);
+        transform.Rotate(0, toward*0.4f, 0);
     }
 }
