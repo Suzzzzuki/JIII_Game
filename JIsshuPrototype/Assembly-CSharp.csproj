@@ -40,9 +40,11 @@
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
      <Compile Include="Assets\Shuffle.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\MenuElements\MainMenu.cs" />
      <Compile Include="Assets\Demo.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\DemoThird.cs" />
+     <Compile Include="Assets\RoundMenuController.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\TimeController.cs" />
@@ -57,6 +59,7 @@
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\DemoSecond.cs" />
+     <Compile Include="Assets\MenuElements\SubMenu.cs" />
      <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
