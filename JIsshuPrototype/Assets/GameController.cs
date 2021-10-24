@@ -7,11 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     //UI
-    public Text Find;
-    public Image Bag;
-    public Image Chair;
-    public Image Draw;
-    public Image Laptop;
     public GameObject Panel;
     public Image BagS;
     public Image ChairS;
@@ -38,11 +33,6 @@ public class GameController : MonoBehaviour
     void Start()
     {
         // For UI elements
-        Find.enabled = true;
-        Bag.enabled = true;
-        Draw.enabled = true;
-        Chair.enabled = true;
-        Laptop.enabled = true;
         BagS.enabled = false;
         DrawS.enabled = false;
         ChairS.enabled = false;
@@ -64,11 +54,6 @@ public class GameController : MonoBehaviour
         //for UI
         LoadTime += Time.deltaTime;
         if(!isStart && LoadTime - startTime > 3.0f){
-            Find.enabled = false;
-            Bag.enabled = false;
-            Draw.enabled = false;
-            Chair.enabled = false;
-            Laptop.enabled = false;
             BagS.enabled = true;
             DrawS.enabled = true;
             ChairS.enabled = true;
