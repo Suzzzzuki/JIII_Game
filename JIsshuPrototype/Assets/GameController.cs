@@ -63,7 +63,7 @@ public class GameController : MonoBehaviour
     {
         //for UI
         LoadTime += Time.deltaTime;
-        if(!isStart && LoadTime - startTime > 4.0f){
+        if(!isStart && LoadTime - startTime > 3.0f){
             Find.enabled = false;
             Bag.enabled = false;
             Draw.enabled = false;

@@ -2444,23 +2444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e5c0e0bb4fca4d4fac4e1f28b8a78c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Find: {fileID: 101344143}
-  Bag: {fileID: 492259472}
-  Chair: {fileID: 106819365}
-  Draw: {fileID: 43503049}
-  Laptop: {fileID: 373215268}
-  Panel: {fileID: 303790321}
-  BagS: {fileID: 166111859}
-  ChairS: {fileID: 1296274355}
-  DrawS: {fileID: 392117922}
-  LaptopS: {fileID: 1351631570}
-  PanelS: {fileID: 1765901127}
-  startTime: 0
-  panelColor:
-    rgba: 0
-  panelColorS:
-    rgba: 0
-  isStart: 0
 --- !u!1 &373215266
 GameObject:
   m_ObjectHideFlags: 0
