@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     Animator animator;
-    float speed = 1f;
+    float speed = 3f;
     float jump = 0f;
     private Vector3 velocity;
     Rigidbody rb;
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float accel = Input.GetAxis("Vertical");
-        float toward = Input.GetAxis("Horizontal");
+        float toward = Input.GetAxis("Mouse X");
 
         animator.SetFloat("Speed", accel);
         Vector3 unityChanVec = Vector3.forward * Time.deltaTime * accel * speed;
@@ -29,11 +29,11 @@ public class PlayerController : MonoBehaviour
         //Run
         if(Input.GetKey(KeyCode.LeftShift)){
             animator.SetBool("isRun", true);
-            speed = 3f;
+            speed = 5f;
         }
         if(Input.GetKeyUp(KeyCode.LeftShift)){
             animator.SetBool("isRun", false);
-            speed = 1f;
+            speed = 3f;
         }
         
         //Jump
@@ -46,6 +46,6 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(transform.up*jump);
 
         transform.Translate(unityChanVec);
-        transform.Rotate(0, toward*0.4f, 0);
+        transform.Rotate(0, toward, 0);
     }
 }
