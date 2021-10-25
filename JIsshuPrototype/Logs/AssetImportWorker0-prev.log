@@ -1,104 +1,2010 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 22000.282; Version 2009; 64bit' Language: 'ja' Physical Memory: 65450 MB
+OS: 'Windows 10 Home; OS build 18363.1556; Version 1909; 64bit' Language: 'ja' Physical Memory: 32716 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-S:\Develop\Unityenv\2021.1.7f1\Editor\Unity.exe
+E:\2021.1.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Users/taka0/Documents/GitHub/JIII_Game/JIsshuPrototype
+E:/Users/TSuz/Documents/GitHub/JIII_Game/JIsshuPrototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50249
-Successfully changed project path to: E:/Users/taka0/Documents/GitHub/JIII_Game/JIsshuPrototype
-E:/Users/taka0/Documents/GitHub/JIII_Game/JIsshuPrototype
+49643
+Successfully changed project path to: E:/Users/TSuz/Documents/GitHub/JIII_Game/JIsshuPrototype
+E:/Users/TSuz/Documents/GitHub/JIII_Game/JIsshuPrototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 92.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
-[Subsystems] Discovering subsystems at path S:/Develop/Unityenv/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Users/taka0/Documents/GitHub/JIII_Game/JIsshuPrototype/Assets
+[Subsystems] Discovering subsystems at path E:/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Users/TSuz/Documents/GitHub/JIII_Game/JIsshuPrototype/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   NVIDIA
-    VRAM:     24348 MB
-    Driver:   30.0.14.9613
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'S:/Develop/Unityenv/2021.1.7f1/Editor/Data/Managed'
-Mono path[1] = 'S:/Develop/Unityenv/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'S:/Develop/Unityenv/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Mono path[0] = 'E:/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: S:/Develop/Unityenv/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: S:/Develop/Unityenv/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001070 seconds.
+Register platform support module: E:/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001516 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 138.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
+- Completed reload, in  1.836 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002017 seconds.
+Registered in 0.004364 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Users\taka0\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Users\taka0\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.678 seconds
+- Completed reload, in  1.347 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2895 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 132.6 MB.
 System memory in use after: 132.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3362.
-Total: 2.063000 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.550700 ms  DeleteObjects: 0.104000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3361.
+Total: 4.298000 ms (FindLiveObjects: 0.568500 ms CreateObjectMapping: 0.085000 ms MarkObjects: 3.391300 ms  DeleteObjects: 0.251200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/UI02.png
-  artifactKey: Guid(f5d9313cd77149141a57996ebbc3f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI02.png using Guid(f5d9313cd77149141a57996ebbc3f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cff7c2a1eb81ea4bc6361351844842') in 0.104913 seconds 
+  path: Assets/MenuElements/SubMenu.cs
+  artifactKey: Guid(5d4b14d40f4b49342a7aa57930fefa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuElements/SubMenu.cs using Guid(5d4b14d40f4b49342a7aa57930fefa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750fdac1e7aeb36eee14b812f0397d7b') in 0.037163 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Start.mp4
-  artifactKey: Guid(e951d26bee5fdb54d8fdb27e1a57dd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Start.mp4 using Guid(e951d26bee5fdb54d8fdb27e1a57dd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdb0346076b654786766335608bce95') in 0.005028 seconds 
+  Time since last request: 2.780254 seconds.
+  path: Assets/MenuElements/MainMenu.cs
+  artifactKey: Guid(5a8399b4dc945b74aad43e33df161d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuElements/MainMenu.cs using Guid(5a8399b4dc945b74aad43e33df161d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51894ef856bb91fb724ba3b0f5a5f2c') in 0.003304 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 2.356100 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.080900 ms MarkObjects: 1.822400 ms  DeleteObjects: 0.089900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 2.206800 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.079600 ms MarkObjects: 1.714000 ms  DeleteObjects: 0.092200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 3.531100 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.759800 ms  DeleteObjects: 0.178100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003085 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.8 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 4.096000 ms (FindLiveObjects: 0.545100 ms CreateObjectMapping: 0.091500 ms MarkObjects: 3.338800 ms  DeleteObjects: 0.119200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003846 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.8 MB.
+System memory in use after: 126.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 3.247600 ms (FindLiveObjects: 0.513700 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.521600 ms  DeleteObjects: 0.115400 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 3.509899 seconds.
-  path: Assets/unity-chan!
-  artifactKey: Guid(d5fed26db9a8f584180e18614567803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan! using Guid(d5fed26db9a8f584180e18614567803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114606a3441fb1efcf978fb6f1787681') in 0.002596 seconds 
+  Time since last request: 5712.881922 seconds.
+  path: Assets/MenuElements/New Folder
+  artifactKey: Guid(a302504839bd0d24aa8a9e5de49846af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuElements/New Folder using Guid(a302504839bd0d24aa8a9e5de49846af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af639c277f41e2b5087954256310783') in 0.082413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.133455 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model
-  artifactKey: Guid(6395fe2434a22ef41b83186b290f8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model using Guid(6395fe2434a22ef41b83186b290f8fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3086a7b1dc77f342f266cc62c5f2032d') in 0.002384 seconds 
+  Time since last request: 9.934646 seconds.
+  path: Assets/MenuElements/Stage3
+  artifactKey: Guid(a302504839bd0d24aa8a9e5de49846af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuElements/Stage3 using Guid(a302504839bd0d24aa8a9e5de49846af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d6b76de9f440a5f497bb3cf455ab82') in 0.002420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.999345 seconds.
-  path: Assets/unity-chan!/Unity-chan! Model/Audio
-  artifactKey: Guid(c388b2cfb1710a449aeb185fe484b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unity-chan!/Unity-chan! Model/Audio using Guid(c388b2cfb1710a449aeb185fe484b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ac7271007f8ff3b9a526d15928467e') in 0.002517 seconds 
+  Time since last request: 16.575485 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aea9a5f32f84730482bd61505b3a671') in 0.518977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.161883 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc2754995f872cd1a0c36d0c0ed4cc') in 0.067046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.043574 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e634b711203cc9e9de51cffd001c84') in 0.073003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.327316 seconds.
+  path: Assets/Stage3/Materials
+  artifactKey: Guid(93b53c03cc555964dabf8131b9503978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials using Guid(93b53c03cc555964dabf8131b9503978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3405a12e7d18b118359a0b768be8c3a2') in 0.002852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088206 seconds.
+  path: Assets/Stage3/Materials/metal_00005.mat
+  artifactKey: Guid(edb6d16d29e62c84f8ee114e11950b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/metal_00005.mat using Guid(edb6d16d29e62c84f8ee114e11950b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a468dd0480fbccf094126110a27a8c') in 0.031769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Stage3/Materials/N845_mokumetex.mat
+  artifactKey: Guid(b5beece66e58fb442ad4780832ea0bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/N845_mokumetex.mat using Guid(b5beece66e58fb442ad4780832ea0bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850ad259bf22c6b62685414139c4052f') in 0.023284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.393928 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdf3244d5e1a4b71245cd2771745fcb') in 0.083211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.923608 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547ae94117e902af9a3ef4a037b097a0') in 0.068161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.362502 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d2534dd45a7f5b73a0887056880932') in 0.080975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.764361 seconds.
+  path: Assets/Stage3/Materials/Material.001.mat
+  artifactKey: Guid(faa98dbc01fc0974c8fd89d43a7fc34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/Material.001.mat using Guid(faa98dbc01fc0974c8fd89d43a7fc34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a603d921a56e98c08e7d77f6fa0cf73') in 0.009280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Stage3/Materials/マテリアル.mat
+  artifactKey: Guid(dae81684454899d43a07915573a76d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/マテリアル.mat using Guid(dae81684454899d43a07915573a76d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f8f0cee8c159a4d92d581d412be203') in 0.007039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Stage3/Materials/Material.003.mat
+  artifactKey: Guid(5dcc59a04224c1044a2da15f28d9c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/Material.003.mat using Guid(5dcc59a04224c1044a2da15f28d9c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c425f27b2447ccaf110643d6eb9cd9') in 0.009059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Stage3/Materials/Material.002.mat
+  artifactKey: Guid(1ba1b92b18dbbef4d9aa701e69f8071f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/Material.002.mat using Guid(1ba1b92b18dbbef4d9aa701e69f8071f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de20b4168d8f61ddc0626c00cb3f7197') in 0.008588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Stage3/Materials/マテリアル.002.mat
+  artifactKey: Guid(449e0a9b1ebd82042a3cb152b5aa61dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/マテリアル.002.mat using Guid(449e0a9b1ebd82042a3cb152b5aa61dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b3307df395ac16a4a55c42fe335b81') in 0.010977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Stage3/Materials/Material.mat
+  artifactKey: Guid(52561ae4e3a9079489e1fb4938473f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/Material.mat using Guid(52561ae4e3a9079489e1fb4938473f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d28767742dfafd5405499d778e0936') in 0.011871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Stage3/Materials/Material.005.mat
+  artifactKey: Guid(0a09aca36cce86b40af3f4b5103d1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/Material.005.mat using Guid(0a09aca36cce86b40af3f4b5103d1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e709a154f059c746fbac6197166933') in 0.011497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Stage3/Materials/マテリアル.001.mat
+  artifactKey: Guid(d6a835d5fa5c477429a1ddb242da8be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/Materials/マテリアル.001.mat using Guid(d6a835d5fa5c477429a1ddb242da8be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a97bdacfb9300deeea0a128019ebe4') in 0.012327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 328.638847 seconds.
+  path: Assets/Stage3/INIADWood.fbx
+  artifactKey: Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIADWood.fbx using Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644b4c43478f670e18399f52400c8438') in 0.085139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.634969 seconds.
+  path: Assets/Stage3/INIADWood.fbx
+  artifactKey: Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIADWood.fbx using Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e989f8ea1602a87e1b66784cafe67e') in 0.094053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.732548 seconds.
+  path: Assets/Stage3/INIADWood.fbx
+  artifactKey: Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIADWood.fbx using Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d62519e56f483769133a56966bea1') in 0.062726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.108682 seconds.
+  path: Assets/Stage3/INIADWood.fbx
+  artifactKey: Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIADWood.fbx using Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8955fef7c9445441f08598fc7f0e1f26') in 0.093200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.424629 seconds.
+  path: Assets/Stage3/INIADWood.fbm
+  artifactKey: Guid(c0eec9d8f68ff06488af02545f1d8902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIADWood.fbm using Guid(c0eec9d8f68ff06488af02545f1d8902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf081609ba5868ae8955f8e5af01e52a') in 0.002405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 706.933516 seconds.
+  path: Assets/Stage3/metal_00005.jpg
+  artifactKey: Guid(8d12e4ffe7f9b6840a3579b133a8bcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/metal_00005.jpg using Guid(8d12e4ffe7f9b6840a3579b133a8bcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370b7e39df372d4a002617099dc73185') in 0.050451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.417288 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab33aa66ffbb38cb06fba2ac8985a42') in 0.085076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.334977 seconds.
+  path: Assets/Stage3/INIAD_Wood.fbx
+  artifactKey: Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.fbx using Guid(e595c4084bcbd4f42a7c76e497f32d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0259fa0af90c14e19ed55f1f0b310c') in 0.097441 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002877 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.8 MB.
+System memory in use after: 132.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 3.138500 ms (FindLiveObjects: 0.435900 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.504400 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.515271 seconds.
+  path: Assets/Stage3/INIAD_Wood.prefab
+  artifactKey: Guid(6253be0746f29bd4da29fb8d660e9576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIAD_Wood.prefab using Guid(6253be0746f29bd4da29fb8d660e9576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596365ad124c33d944bc7a65e985e259') in 0.096547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.754011 seconds.
+  path: Assets/Stage3/N845_mokumetex.jpg
+  artifactKey: Guid(50d1a303ecd051849920bf93e4477b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/N845_mokumetex.jpg using Guid(50d1a303ecd051849920bf93e4477b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607bdbe197a156db15dafb8a7092d81b') in 0.016550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 191.108498 seconds.
+  path: Assets/Stage3/INIADWood.fbx
+  artifactKey: Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stage3/INIADWood.fbx using Guid(f3bf44a5fde0bf8419cabc283f53d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11199fe630dfb872106f3fc23a197ed') in 0.122878 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003362 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3458.
+Total: 3.986400 ms (FindLiveObjects: 0.674400 ms CreateObjectMapping: 0.110100 ms MarkObjects: 3.094400 ms  DeleteObjects: 0.105600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003136 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3461.
+Total: 6.948600 ms (FindLiveObjects: 0.981500 ms CreateObjectMapping: 0.103500 ms MarkObjects: 5.652100 ms  DeleteObjects: 0.209400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 604.044856 seconds.
+  path: Assets/RoundMenuController.cs
+  artifactKey: Guid(db13bf74e8336ca489c1a6629efa71b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoundMenuController.cs using Guid(db13bf74e8336ca489c1a6629efa71b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72467ea14c134207e7b14692e38aa50') in 0.006544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.109750 seconds.
+  path: Assets/DemoSecond.cs
+  artifactKey: Guid(4a33ed933fd7033419ddea00cfefd533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoSecond.cs using Guid(4a33ed933fd7033419ddea00cfefd533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af94911c504d2d09df05844c0af12d52') in 0.002237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530710 seconds.
+  path: Assets/DemoThird.cs
+  artifactKey: Guid(587faeee4b17cfe4792b129e987055e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoThird.cs using Guid(587faeee4b17cfe4792b129e987055e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a4029de4cc554a30592641a145e5a3') in 0.002527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.469974 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(c03708c51d047f747a4b587d51472b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(c03708c51d047f747a4b587d51472b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a7a04d275ce66f369e4a1525665e11') in 0.011600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435465 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(c39c1d8e88d4dc14ab367f542762137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(c39c1d8e88d4dc14ab367f542762137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1333c0af37dad9869ba7f4cf638bb6df') in 0.002660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341387 seconds.
+  path: Assets/SceneController.cs
+  artifactKey: Guid(ed1d1f040912b3247b3b8db2b166ccef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneController.cs using Guid(ed1d1f040912b3247b3b8db2b166ccef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55088b7439636ea1782305f74a4a568e') in 0.002416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437538 seconds.
+  path: Assets/StartScene.unity
+  artifactKey: Guid(362be68c26c58354eb37ce48e2de3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartScene.unity using Guid(362be68c26c58354eb37ce48e2de3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e233d57176df74c250f7375d149a043') in 0.002683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.336122 seconds.
+  path: Assets/Shuffle.cs
+  artifactKey: Guid(83a98f19fa427ae47a0bc4b14872b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shuffle.cs using Guid(83a98f19fa427ae47a0bc4b14872b0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175a3fe8801423ae4abd791875f52e40') in 0.002971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.650878 seconds.
+  path: Assets/Demo.cs
+  artifactKey: Guid(68a49eaa1bd840e488c8efc451e1230c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Demo.cs using Guid(68a49eaa1bd840e488c8efc451e1230c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d76a570b16b52e205b2fde23e6faf') in 0.002272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.174633 seconds.
+  path: Assets/MenuElements/SubMenu.cs
+  artifactKey: Guid(5d4b14d40f4b49342a7aa57930fefa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuElements/SubMenu.cs using Guid(5d4b14d40f4b49342a7aa57930fefa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dcf7737f8fc4c4f15128af6dab354b') in 0.001889 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3464.
+Total: 3.921900 ms (FindLiveObjects: 0.590800 ms CreateObjectMapping: 0.100500 ms MarkObjects: 3.108000 ms  DeleteObjects: 0.121000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003052 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3467.
+Total: 5.479800 ms (FindLiveObjects: 1.288200 ms CreateObjectMapping: 0.349400 ms MarkObjects: 3.580900 ms  DeleteObjects: 0.258600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.036085 seconds.
+  path: Assets/MenuElements/MainMenu.cs
+  artifactKey: Guid(5a8399b4dc945b74aad43e33df161d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuElements/MainMenu.cs using Guid(5a8399b4dc945b74aad43e33df161d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5255d98d08940f44985183a7aaf10178') in 0.011062 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3470.
+Total: 2.773700 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.155400 ms  DeleteObjects: 0.123300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.521613 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_normal.png
+  artifactKey: Guid(a2265e5c21ada234eba9f2a74ff5c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_normal.png using Guid(a2265e5c21ada234eba9f2a74ff5c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ff1a2509cebc87b8f33201f52b2a4b') in 0.058465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_specular.png
+  artifactKey: Guid(1b23143232b41204d85d761b07d58631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_specular.png using Guid(1b23143232b41204d85d761b07d58631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7e95d494b87c0c0f861418636dd26') in 0.009063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728.png
+  artifactKey: Guid(96bb926b90b82744693ee966a9a1b5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728.png using Guid(96bb926b90b82744693ee966a9a1b5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502df2ac222594163140b347083a31dd') in 0.008346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.103078 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_normal.png
+  artifactKey: Guid(09ebd21bab5296847877d5b8a32e8d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_normal.png using Guid(09ebd21bab5296847877d5b8a32e8d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea911eaaf0e95bd6e92f1cbf3a738aa') in 0.008993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344.png
+  artifactKey: Guid(a92a5894aa2810d46a3982fe1a02d0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344.png using Guid(a92a5894aa2810d46a3982fe1a02d0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e856f3ac33c2b59230eccd2acf07395a') in 0.009645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_specular.png
+  artifactKey: Guid(37f1785902c31014e870ecdff41df12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_specular.png using Guid(37f1785902c31014e870ecdff41df12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac37a74a81815abb43118dd3182d5607') in 0.009019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.876611 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/tile-846018/tile-846018_normal.png
+  artifactKey: Guid(946fcbd549cc82549baec544e53477e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/tile-846018/tile-846018_normal.png using Guid(946fcbd549cc82549baec544e53477e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e509a9249fb97daf47f508068ebdf98c') in 0.015613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/tile-846018/tile-846018_specular.png
+  artifactKey: Guid(a68aea1a044ed524894f713d015247d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/tile-846018/tile-846018_specular.png using Guid(a68aea1a044ed524894f713d015247d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03160f5b47a5499e70634ec38fae0e55') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/tile-846018/tile-846018.png
+  artifactKey: Guid(5b67d1103800a2141a4c1624e281b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/tile-846018/tile-846018.png using Guid(5b67d1103800a2141a4c1624e281b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87d4161fe3fe859b4cc989069bde66') in 0.012239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.818566 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wall-846013/wall-846013_normal.png
+  artifactKey: Guid(a7f3bff1c5952e84bbbb5d4c6d6b4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wall-846013/wall-846013_normal.png using Guid(a7f3bff1c5952e84bbbb5d4c6d6b4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e818f474d21c1d16d082a721028918') in 0.011260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wall-846013/wall-846013.png
+  artifactKey: Guid(7e00d22e5dab32940b86bdeed68fb333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wall-846013/wall-846013.png using Guid(7e00d22e5dab32940b86bdeed68fb333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e9f0e08041b152c80cb75f094b2286') in 0.008274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wall-846013/wall-846013_specular.png
+  artifactKey: Guid(ecad5034e170ceb4a9d0d824b44947a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wall-846013/wall-846013_specular.png using Guid(ecad5034e170ceb4a9d0d824b44947a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb39966a2b84933a5a63cabed429500') in 0.009988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.203466 seconds.
+  path: Assets/HighQualityBricks&Walls/Shaders
+  artifactKey: Guid(cc0a757df2ee29c4591c4d8d360629b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Shaders using Guid(cc0a757df2ee29c4591c4d8d360629b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5601f5e00385c4cc6f13d8dc0af2a422') in 0.002276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211885 seconds.
+  path: Assets/HighQualityBricks&Walls/Scenes
+  artifactKey: Guid(0b5657e7ec1cded43856eb1b25807a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Scenes using Guid(0b5657e7ec1cded43856eb1b25807a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ab5e2f26363c365b7187c8c7ad622e') in 0.002468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.622172 seconds.
+  path: Assets/HighQualityBricks&Walls/Materials
+  artifactKey: Guid(7a0bd03446fd5bd41bd435a643f11f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Materials using Guid(7a0bd03446fd5bd41bd435a643f11f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e165da60180b3b0b163fd9d90604f') in 0.002093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.307769 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_normal.png
+  artifactKey: Guid(bc5c58ffefebace418a2a63ba7fc82c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_normal.png using Guid(bc5c58ffefebace418a2a63ba7fc82c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc78bd4b29697834e25b196dce89e9bb') in 0.009222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_specular.png
+  artifactKey: Guid(2acc4043e712b29499e40abcb1600154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_specular.png using Guid(2acc4043e712b29499e40abcb1600154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9cfa5372667ec8163348d54c2d8766') in 0.010388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823.png
+  artifactKey: Guid(1b81dacc68f5b89489a158fbeec3a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823.png using Guid(1b81dacc68f5b89489a158fbeec3a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b9615183dd9e1b61adee20c1e13877') in 0.011545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.455585 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_normal.png
+  artifactKey: Guid(5196092d8a261af45a31acae191aa3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_normal.png using Guid(5196092d8a261af45a31acae191aa3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a3074ffe67ec534fa47e3fcd3ca608') in 0.012142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_specular.png
+  artifactKey: Guid(5fa9532a887c3e74ea6e585e3ea21cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_specular.png using Guid(5fa9532a887c3e74ea6e585e3ea21cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753a1b49b28d24fce66f2a0689ae416f') in 0.009583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827.png
+  artifactKey: Guid(a37f1d4f17c3bb4459ea1285dc7387ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827.png using Guid(a37f1d4f17c3bb4459ea1285dc7387ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84633936eae8648b4a53b8dfe451e18f') in 0.008703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.767827 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-731407/wood-731407_normal.png
+  artifactKey: Guid(d2cd3fd43c3c1494bba72690bcbb62bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-731407/wood-731407_normal.png using Guid(d2cd3fd43c3c1494bba72690bcbb62bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9ad979af1817a9ad7a814bff1238a0') in 0.009975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-731407/wood-731407.png
+  artifactKey: Guid(ed66cbbe7e5e8c346bb35d5b34717e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-731407/wood-731407.png using Guid(ed66cbbe7e5e8c346bb35d5b34717e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84b4e0b0d5bc50a47376067532ed625') in 0.008927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-731407/wood-731407_specular.png
+  artifactKey: Guid(ad7831b8cdb09ab4b83fc9e2970cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-731407/wood-731407_specular.png using Guid(ad7831b8cdb09ab4b83fc9e2970cdab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7581fa5b6dd657b683191292b98b13') in 0.011466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.983775 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-877000/wood-877000_normal.png
+  artifactKey: Guid(ea627840621d2724887b20466d76cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-877000/wood-877000_normal.png using Guid(ea627840621d2724887b20466d76cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78194056e5e5192a8632135c700fcd7a') in 0.011398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-877000/wood-877000_specular.png
+  artifactKey: Guid(f7e8a7906208754439a235633cc02e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-877000/wood-877000_specular.png using Guid(f7e8a7906208754439a235633cc02e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8116d9001f7a97566b156e87648a64') in 0.011062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-877000/wood-877000.png
+  artifactKey: Guid(2e2436c9d658b994cbf30d256b10c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-877000/wood-877000.png using Guid(2e2436c9d658b994cbf30d256b10c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdba70ecffad18caa10e77f04105374') in 0.012146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597148 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-877365/wood-877365_normal.png
+  artifactKey: Guid(f89d8ef1b389da042a6a86764d232663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-877365/wood-877365_normal.png using Guid(f89d8ef1b389da042a6a86764d232663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4191c7049b320d7ebe863683dccad5c8') in 0.013916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-877365/wood-877365.png
+  artifactKey: Guid(2df36a2910d8d434fac9f6a3acbe49e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-877365/wood-877365.png using Guid(2df36a2910d8d434fac9f6a3acbe49e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d04a68c99c54d557593d2405514044') in 0.012531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-877365/wood-877365_specular.png
+  artifactKey: Guid(66bac1f73fc6f734c95ec83aae131f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-877365/wood-877365_specular.png using Guid(66bac1f73fc6f734c95ec83aae131f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b7ef53434d4302d0c3f960527e1338') in 0.011075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.448799 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-938698/wood-938698_normal.png
+  artifactKey: Guid(fe32d945e0215e14c9b9d91c4596446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-938698/wood-938698_normal.png using Guid(fe32d945e0215e14c9b9d91c4596446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c47cf82a0f93a721ab472d2a66ebeb') in 0.011822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-938698/wood-938698.png
+  artifactKey: Guid(5392c04bd7d798942b5941ec4da3bece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-938698/wood-938698.png using Guid(5392c04bd7d798942b5941ec4da3bece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3671ccbff6a81261667afd0c5bde04') in 0.011570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wood-938698/wood-938698_specular.png
+  artifactKey: Guid(4245369847a17a344a2d2b5cf3f42b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wood-938698/wood-938698_specular.png using Guid(4245369847a17a344a2d2b5cf3f42b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31611dd76d5921c907a917b32778164') in 0.010156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.288600 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wall-846015/wall-846015_normal.png
+  artifactKey: Guid(3a66abf2aa93cc34681f0710ed7548c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wall-846015/wall-846015_normal.png using Guid(3a66abf2aa93cc34681f0710ed7548c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3d6f9f22db6772e0032dbb445a9b2f') in 0.009209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wall-846015/wall-846015_specular.png
+  artifactKey: Guid(f1a437d3a3e7944408208fb7348eeaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wall-846015/wall-846015_specular.png using Guid(f1a437d3a3e7944408208fb7348eeaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6470f6e1fcdc5cbbd173d61f8288b7a8') in 0.007636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/wall-846015/wall-846015.png
+  artifactKey: Guid(55a63e17de5e83948b7888f41c46ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/wall-846015/wall-846015.png using Guid(55a63e17de5e83948b7888f41c46ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7daa56a690681f072cbc294a0c4177') in 0.010503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.166348 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/stone-805287/stone-805287_normal.png
+  artifactKey: Guid(b9d667abd7b70774b8b43097f77c3331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/stone-805287/stone-805287_normal.png using Guid(b9d667abd7b70774b8b43097f77c3331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557dc63cad824315a420950c1f64f5bc') in 0.014012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/stone-805287/stone-805287.png
+  artifactKey: Guid(5cdae53c11b7fdd4a98c13e697644f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/stone-805287/stone-805287.png using Guid(5cdae53c11b7fdd4a98c13e697644f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d2898b24127ef899e1dedfcc21c015') in 0.010798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/HighQualityBricks&Walls/Images/stone-805287/stone-805287_specular.png
+  artifactKey: Guid(49da89e97739aee4d9672ac724a0c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HighQualityBricks&Walls/Images/stone-805287/stone-805287_specular.png using Guid(49da89e97739aee4d9672ac724a0c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bd6b825e3f0ed76a055055c1e2d03c') in 0.012281 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2859 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.6 MB.
+System memory in use after: 221.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4016.
+Total: 3.157800 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.474400 ms  DeleteObjects: 0.124600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.5 MB.
+System memory in use after: 220.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4019.
+Total: 2.433700 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.886600 ms  DeleteObjects: 0.087000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.5 MB.
+System memory in use after: 220.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4022.
+Total: 4.396700 ms (FindLiveObjects: 0.963100 ms CreateObjectMapping: 0.114400 ms MarkObjects: 3.220600 ms  DeleteObjects: 0.097400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004379 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.5 MB.
+System memory in use after: 220.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 3.826100 ms (FindLiveObjects: 0.588200 ms CreateObjectMapping: 0.088800 ms MarkObjects: 3.041000 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2218.612715 seconds.
+  path: Assets/Sokutei.cs
+  artifactKey: Guid(f00f3e5f43863224f854b3e0fa4e77e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sokutei.cs using Guid(f00f3e5f43863224f854b3e0fa4e77e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01d30ef310e7b821b6815caea73f2e1') in 0.015613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.879900 seconds.
+  path: Assets/GameController.cs
+  artifactKey: Guid(4c23ac6ca64c7a947802782c26584795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameController.cs using Guid(4c23ac6ca64c7a947802782c26584795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f98054be19c81ac44ee34035203503') in 0.005134 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.5 MB.
+System memory in use after: 220.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 14.248100 ms (FindLiveObjects: 1.415600 ms CreateObjectMapping: 0.141600 ms MarkObjects: 12.447400 ms  DeleteObjects: 0.238300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.296745 seconds.
+  path: Assets/Standard Assets
+  artifactKey: Guid(7402b71f7e56f144089445d5050fbb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets using Guid(7402b71f7e56f144089445d5050fbb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3574e966547aa2c5e6237a32203fe9fc') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.446317 seconds.
+  path: Assets/UI3.png
+  artifactKey: Guid(352bdb52c68ed734b96169ed77b4d378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI3.png using Guid(352bdb52c68ed734b96169ed77b4d378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b2aa7b6e5ab7a9319c19e69292ce10') in 0.060367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.234617 seconds.
+  path: Assets/UI3.png
+  artifactKey: Guid(352bdb52c68ed734b96169ed77b4d378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI3.png using Guid(352bdb52c68ed734b96169ed77b4d378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86268a9085eb6a8a8d986bc120a7b892') in 0.086480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 285.088939 seconds.
+  path: Assets/UI_img
+  artifactKey: Guid(784ec2de009bf034494513427988b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img using Guid(784ec2de009bf034494513427988b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01610864e7d4a188a5a62d8f6d4f2784') in 0.003461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.335141 seconds.
+  path: Assets/UI_img/wood1.png
+  artifactKey: Guid(4738d3016e6ab4044922b9dd1203b8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img/wood1.png using Guid(4738d3016e6ab4044922b9dd1203b8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ddf1fb8c3aafcd78c411b577c5c866') in 0.035740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.845338 seconds.
+  path: Assets/UI_img/wood1.png
+  artifactKey: Guid(4738d3016e6ab4044922b9dd1203b8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img/wood1.png using Guid(4738d3016e6ab4044922b9dd1203b8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5214e63559ce39052615c5a5444026') in 0.070681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693086 seconds.
+  path: Assets/UI_img/wood2.png
+  artifactKey: Guid(2d58139c4f3541f41b9ec26e2107cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img/wood2.png using Guid(2d58139c4f3541f41b9ec26e2107cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa773ebfb7dd488877a60be3d4ddea2e') in 0.042785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.155746 seconds.
+  path: Assets/UI_img/wood2.png
+  artifactKey: Guid(2d58139c4f3541f41b9ec26e2107cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img/wood2.png using Guid(2d58139c4f3541f41b9ec26e2107cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780d8e11def875f36c2eab0b9c4c2570') in 0.042417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.901852 seconds.
+  path: Assets/UI_img/wood4.png
+  artifactKey: Guid(b3c2d79b1cae7304790488bf378d403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img/wood4.png using Guid(b3c2d79b1cae7304790488bf378d403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1a9fa8fde9292cb57722e68095df0f') in 0.016478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.857064 seconds.
+  path: Assets/UI_img/wood4.png
+  artifactKey: Guid(b3c2d79b1cae7304790488bf378d403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_img/wood4.png using Guid(b3c2d79b1cae7304790488bf378d403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a985cb86117d5b9e8ee3b99006b0a08b') in 0.060103 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2827 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4156.
+Total: 4.300000 ms (FindLiveObjects: 0.551700 ms CreateObjectMapping: 0.096000 ms MarkObjects: 3.546300 ms  DeleteObjects: 0.104000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4159.
+Total: 3.796800 ms (FindLiveObjects: 0.887800 ms CreateObjectMapping: 0.218200 ms MarkObjects: 2.582100 ms  DeleteObjects: 0.106500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1870.236654 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.031217 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4162.
+Total: 2.952400 ms (FindLiveObjects: 0.558500 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.211500 ms  DeleteObjects: 0.094300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4165.
+Total: 3.528300 ms (FindLiveObjects: 0.682300 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.627300 ms  DeleteObjects: 0.129000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4168.
+Total: 4.026300 ms (FindLiveObjects: 0.752600 ms CreateObjectMapping: 0.099700 ms MarkObjects: 3.063100 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002986 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4171.
+Total: 4.080000 ms (FindLiveObjects: 0.572100 ms CreateObjectMapping: 0.110100 ms MarkObjects: 3.253400 ms  DeleteObjects: 0.143400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002617 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4174.
+Total: 3.507900 ms (FindLiveObjects: 0.524400 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.761200 ms  DeleteObjects: 0.133000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002611 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.1 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4177.
+Total: 3.072700 ms (FindLiveObjects: 0.465700 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.438200 ms  DeleteObjects: 0.084900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002754 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4180.
+Total: 3.271900 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.562500 ms  DeleteObjects: 0.107500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002640 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4183.
+Total: 4.279200 ms (FindLiveObjects: 0.707300 ms CreateObjectMapping: 0.110100 ms MarkObjects: 3.351400 ms  DeleteObjects: 0.108500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2432.478900 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(c03708c51d047f747a4b587d51472b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(c03708c51d047f747a4b587d51472b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb97e5f58e0dd3c618d43f18ccd00e9') in 0.012690 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003674 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4185.
+Total: 3.271000 ms (FindLiveObjects: 0.746200 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.315800 ms  DeleteObjects: 0.110400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4188.
+Total: 3.265500 ms (FindLiveObjects: 0.566400 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.500000 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004165 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4191.
+Total: 4.879300 ms (FindLiveObjects: 1.009700 ms CreateObjectMapping: 0.237800 ms MarkObjects: 3.517700 ms  DeleteObjects: 0.112100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003122 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4194.
+Total: 3.632700 ms (FindLiveObjects: 0.535300 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.899000 ms  DeleteObjects: 0.106100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4197.
+Total: 3.158600 ms (FindLiveObjects: 0.458600 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.517300 ms  DeleteObjects: 0.094500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.316907 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(c39c1d8e88d4dc14ab367f542762137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(c39c1d8e88d4dc14ab367f542762137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e83913dad89a061ef6c91b6b1979e') in 0.010250 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.4 MB.
+System memory in use after: 227.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4200.
+Total: 2.838900 ms (FindLiveObjects: 0.449800 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.138100 ms  DeleteObjects: 0.165700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002667 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4203.
+Total: 3.681900 ms (FindLiveObjects: 0.654600 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.817400 ms  DeleteObjects: 0.099700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002767 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4206.
+Total: 3.044700 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.434400 ms  DeleteObjects: 0.092700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.574021 seconds.
+  path: Assets/EndScene.unity
+  artifactKey: Guid(52ad49206ea4e33428fabbdaa70e463c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndScene.unity using Guid(52ad49206ea4e33428fabbdaa70e463c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8813204757255c301696f193ea51a94c') in 0.034318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1606.784287 seconds.
+  path: Assets/Fin.png
+  artifactKey: Guid(4d69608fd29431d42ac18a46579f9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fin.png using Guid(4d69608fd29431d42ac18a46579f9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2127b52cd3369802c80ee3183a214e') in 1.568316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.814175 seconds.
+  path: Assets/Fin.png
+  artifactKey: Guid(4d69608fd29431d42ac18a46579f9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fin.png using Guid(4d69608fd29431d42ac18a46579f9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d132fe9cf33a82b2a84fd07b693d877') in 0.479194 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.7 MB.
+System memory in use after: 229.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4239.
+Total: 91.831000 ms (FindLiveObjects: 0.530300 ms CreateObjectMapping: 0.090200 ms MarkObjects: 91.093700 ms  DeleteObjects: 0.115200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 492.632211 seconds.
+  path: Assets/Main.unity
+  artifactKey: Guid(c03708c51d047f747a4b587d51472b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.unity using Guid(c03708c51d047f747a4b587d51472b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779ec67442dfdcf31884a155d423cb52') in 0.027654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.060410 seconds.
+  path: Assets/UnityChanController.controller
+  artifactKey: Guid(ac69db2f41948c845891b64098293cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChanController.controller using Guid(ac69db2f41948c845891b64098293cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb43ebf8a85e4f8146cae81ef092b0d') in 0.691871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.824661 seconds.
+  path: Assets/ClearTime.cs
+  artifactKey: Guid(b90e265ae12e2a545a2951d8955f667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClearTime.cs using Guid(b90e265ae12e2a545a2951d8955f667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef2bfd197f6b9286bba5cbf913b5e7') in 0.002172 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002861 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4243.
+Total: 4.581600 ms (FindLiveObjects: 0.602600 ms CreateObjectMapping: 0.107200 ms MarkObjects: 3.708000 ms  DeleteObjects: 0.162400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002706 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4246.
+Total: 4.750600 ms (FindLiveObjects: 1.013300 ms CreateObjectMapping: 0.118100 ms MarkObjects: 3.508700 ms  DeleteObjects: 0.109000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.7 MB.
+System memory in use after: 229.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4249.
+Total: 2.969200 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.083700 ms MarkObjects: 2.307000 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002599 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4252.
+Total: 2.738300 ms (FindLiveObjects: 0.418800 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.128800 ms  DeleteObjects: 0.106200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 540.116426 seconds.
+  path: Assets/SampleScenes
+  artifactKey: Guid(4eadaf207c354ab4c801dd73b605cc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes using Guid(4eadaf207c354ab4c801dd73b605cc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bb548fced43cfa8657b08c00fa64dc') in 0.006880 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4255.
+Total: 3.381600 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.730300 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.7 MB.
+System memory in use after: 229.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4258.
+Total: 2.714300 ms (FindLiveObjects: 0.446700 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.089500 ms  DeleteObjects: 0.092500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4261.
+Total: 2.702400 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.011200 ms  DeleteObjects: 0.094500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.5 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4264.
+Total: 3.618100 ms (FindLiveObjects: 0.530700 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.903600 ms  DeleteObjects: 0.095200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002906 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.7 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4267.
+Total: 2.789800 ms (FindLiveObjects: 0.506200 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.104800 ms  DeleteObjects: 0.091800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002904 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4270.
+Total: 4.659200 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.086700 ms MarkObjects: 3.946500 ms  DeleteObjects: 0.130700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4273.
+Total: 2.529600 ms (FindLiveObjects: 0.428700 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.928700 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002694 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4276.
+Total: 2.906800 ms (FindLiveObjects: 0.538500 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.194600 ms  DeleteObjects: 0.084400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4279.
+Total: 2.748900 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.083700 ms MarkObjects: 2.098500 ms  DeleteObjects: 0.110000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4282.
+Total: 4.335900 ms (FindLiveObjects: 0.777000 ms CreateObjectMapping: 0.090200 ms MarkObjects: 3.358600 ms  DeleteObjects: 0.108000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4285.
+Total: 2.609500 ms (FindLiveObjects: 0.436100 ms CreateObjectMapping: 0.084500 ms MarkObjects: 2.002800 ms  DeleteObjects: 0.085000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4288.
+Total: 3.268000 ms (FindLiveObjects: 0.453200 ms CreateObjectMapping: 0.083100 ms MarkObjects: 2.634600 ms  DeleteObjects: 0.095600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1026.721634 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71b0ee3aca1640b41f893cdfc4cb5d7') in 0.021580 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4291.
+Total: 2.902200 ms (FindLiveObjects: 0.438600 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.266300 ms  DeleteObjects: 0.115700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002847 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4294.
+Total: 3.203100 ms (FindLiveObjects: 0.568100 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.448800 ms  DeleteObjects: 0.094000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003021 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.7 MB.
+System memory in use after: 229.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4297.
+Total: 2.560500 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.085400 ms MarkObjects: 1.955300 ms  DeleteObjects: 0.091700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4297.
+Total: 2.988300 ms (FindLiveObjects: 0.430100 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.367800 ms  DeleteObjects: 0.104200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.656630 seconds.
+  path: Assets/GameController.cs
+  artifactKey: Guid(4c23ac6ca64c7a947802782c26584795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameController.cs using Guid(4c23ac6ca64c7a947802782c26584795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbbc8bf9d2271614078fe8f4832c597') in 0.007525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.809713 seconds.
+  path: Assets/ObjectController.cs
+  artifactKey: Guid(304e947b57a75bd46ad08da8461c11d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObjectController.cs using Guid(304e947b57a75bd46ad08da8461c11d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5bf0dbdf6e631dfdf1d449d397c8a2') in 0.002192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.733209 seconds.
+  path: Assets/Sokutei.cs
+  artifactKey: Guid(f00f3e5f43863224f854b3e0fa4e77e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sokutei.cs using Guid(f00f3e5f43863224f854b3e0fa4e77e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db06a0c3b808834806189b78fe406208') in 0.002154 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004132 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\TSuz\Documents\GitHub\JIII_Game\JIsshuPrototype\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4299.
+Total: 3.431300 ms (FindLiveObjects: 0.457100 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.792800 ms  DeleteObjects: 0.096100 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -106,7 +106,7 @@ public class MainMenu : MonoBehaviour
                 if(M1 == true && M2 == true)
                 {
                     //ポイント１配置位置
-                    Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.2f, 1, GameObject.Find("Player").transform.position.z*1.2f);
+                    Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.1f, 1, GameObject.Find("Player").transform.position.z*1.1f);
                     //ポイント１回転
                     Quaternion rot = GameObject.Find("Player").transform.rotation;
                     P1 = (GameObject)Instantiate(P1prefab, position, rot);
@@ -115,7 +115,7 @@ public class MainMenu : MonoBehaviour
                 else if(M1 == false && M2 == true)
                 {
                     //ポイント２配置位置
-                    Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.2f, 1, GameObject.Find("Player").transform.position.z*1.2f);
+                    Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.1f, 1, GameObject.Find("Player").transform.position.z*1.1f);
                     //ポイント２回転
                     Quaternion rot = GameObject.Find("Player").transform.rotation;
                     P2 = (GameObject)Instantiate(P2prefab, position, rot);

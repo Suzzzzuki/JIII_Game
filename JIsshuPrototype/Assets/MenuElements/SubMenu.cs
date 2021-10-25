@@ -16,6 +16,12 @@ public class SubMenu : MonoBehaviour
     public GameObject BoxM;
     public GameObject BoxS;
     public GameObject BoxSS;
+
+    //for box
+    bool bL = false;
+    bool bM = false;
+    bool bS = false;
+    bool bSS = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -88,26 +94,67 @@ public class SubMenu : MonoBehaviour
                 }
             }
         }
+
+        //outputBoxL
+        if(bL == true){
+            //配置位置
+            Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.3f, 3, GameObject.Find("Player").transform.position.z*1.3f);
+            //ポイント１回転
+            Quaternion rot = GameObject.Find("Player").transform.rotation;
+            GameObject B1 = (GameObject)Instantiate(BoxL, position, rot);
+            bL = false;
+        }
+        //outputBoxM
+        if(bM == true){
+            //配置位置
+            Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.3f, 3, GameObject.Find("Player").transform.position.z*1.3f);
+            //ポイント１回転
+            Quaternion rot = GameObject.Find("Player").transform.rotation;
+            GameObject B2 = (GameObject)Instantiate(BoxM, position, rot);
+            bM = false;
+        }
+        //outputBoxL
+        if(bS == true){
+            //配置位置
+            Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.3f, 3, GameObject.Find("Player").transform.position.z*1.3f);
+            //ポイント１回転
+            Quaternion rot = GameObject.Find("Player").transform.rotation;
+            GameObject B3 = (GameObject)Instantiate(BoxS, position, rot);
+            bS = false;
+        }
+        //outputBoxL
+        if(bSS == true){
+            //配置位置
+            Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.3f, 3, GameObject.Find("Player").transform.position.z*1.3f);
+            //ポイント１回転
+            Quaternion rot = GameObject.Find("Player").transform.rotation;
+            GameObject B4 = (GameObject)Instantiate(BoxSS, position, rot);
+            bSS = false;
+        }
     }
 
     public void switchL()
     {
         //BoxLを出す動作
+        bL = true;
         
     }
 
     public void switchM()
     {
         //BoxMを出す動作
+        bM = true;
     }
 
     public void switchS()
     {
         //BoxSを出す動作
+        bS = true;
     }
 
     public void switchSS()
     {
         //BoxSSを出す動作
+        bSS = true;
     }
 }
