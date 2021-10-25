@@ -24,7 +24,7 @@ public class TimeController : MonoBehaviour
     {
         LoadTime += Time.deltaTime;
         //Stage01の説明時間分タイマーの開始時間をずらす
-        if(LoadTime - StartTime > 3.0){
+        if(LoadTime - StartTime > 5.0){
             
             sec += Time.deltaTime; //TimerCount
 

@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 8242958447454970380}
   - component: {fileID: 8242958447454970381}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Center02F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
