@@ -13,6 +13,18 @@ public class MainMenu : MonoBehaviour
     public GameObject highlightBlock;
     bool mainMenu = false;
     public GameObject ObjMenu;
+
+    //for measure
+    public GameObject P1prefab;
+    public GameObject P2prefab;
+    GameObject P1;
+    GameObject P2;
+    bool pointer = false;
+    bool M1 = false;
+    bool M2 = false;
+    bool measure = false;
+    private float d = 0;
+    private Text MeasureText;
     // Start is called before the first frame update
     void Start()
     {
@@ -87,6 +99,53 @@ public class MainMenu : MonoBehaviour
                 }
             }
         }
+
+        //for measure
+        if(pointer == true){
+            if(Input.GetKeyDown(KeyCode.P)){
+                if(M1 == true && M2 == true)
+                {
+                    //ポイント１配置位置
+                    Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.2f, 1, GameObject.Find("Player").transform.position.z*1.2f);
+                    //ポイント１回転
+                    Quaternion rot = GameObject.Find("Player").transform.rotation;
+                    P1 = (GameObject)Instantiate(P1prefab, position, rot);
+                    M1 = false;
+                }
+                else if(M1 == false && M2 == true)
+                {
+                    //ポイント２配置位置
+                    Vector3 position = new Vector3(GameObject.Find("Player").transform.position.x*1.2f, 1, GameObject.Find("Player").transform.position.z*1.2f);
+                    //ポイント２回転
+                    Quaternion rot = GameObject.Find("Player").transform.rotation;
+                    P2 = (GameObject)Instantiate(P2prefab, position, rot);
+                    M2 = false;
+                    measure = true;
+                } 
+                else
+                {
+                    measure = false;
+                    Destroy(P1);
+                    Destroy(P2);
+                    pointer = false;
+                }
+            }
+        }
+
+        //measure code
+        if(measure == true){
+            Vector3 pos1 = P1.transform.position;
+            Vector3 pos2 = P2.transform.position;
+            d = Vector3.Distance(pos1, pos2);
+            MeasureText = GameObject.Find("measure").GetComponent<Text>();
+            MeasureText.text = d.ToString("N2") + "m";
+            
+        }
+        else
+        {
+            MeasureText = GameObject.Find("measure").GetComponent<Text>();
+            MeasureText.text = "";
+        }
     }
 
     public void switchObject()
@@ -99,6 +158,8 @@ public class MainMenu : MonoBehaviour
     public void switchMeasure()
     {
         //measureの動作を書き込む
-        //測定の動作は未定
+        pointer = true;
+        M1 = true;
+        M2 = true;
     }
 }
