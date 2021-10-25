@@ -326,6 +326,7 @@
 "Assets/DemoSecond.cs"
 "Assets/DemoThird.cs"
 "Assets/GameController.cs"
+"Assets/Measur/Mesur.cs"
 "Assets/MenuElements/MainMenu.cs"
 "Assets/MenuElements/SubMenu.cs"
 "Assets/ObjectController.cs"
