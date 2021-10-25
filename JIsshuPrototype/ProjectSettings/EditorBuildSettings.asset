@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main.unity
     guid: c03708c51d047f747a4b587d51472b31
-  m_configObjects: {}
+  m_configObjects:
+    WebXR.Settings: {fileID: 11400000, guid: 5d2d1a1a61649d3409d07a4cfbea420f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a4900cb579065f643bb9935b560aaecb, type: 2}
